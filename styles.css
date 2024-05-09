@@ -1,0 +1,25 @@
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+img{
+    height: auto;
+    width: 50px;
+}
+
+h3{
+    color: rgb(9, 9, 79);
+}
+
+p{
+    color: rgb(142, 139, 139);
+    font-weight: bold;
+}
+
+@media (max-width:576px) {
+    body{
+        height: auto;
+    }
+}
